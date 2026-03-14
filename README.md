@@ -48,11 +48,12 @@ Orders are displayed in a clear, user-friendly interface and stored using Java a
 ## **🧩 Wireframe**
 
 ![img alt](https://github.com/whoisiyann/CodeCafe/blob/0045f5003326c213272450525cba5646bded7f6b/Wireframe/Screenshot%202026-03-14%20120616.png) 
-![img alt](https://github.com/whoisiyann/CodeCafe/blob/0045f5003326c213272450525cba5646bded7f6b/Wireframe/Screenshot%202026-03-14%20120616.png) 
-![img alt](https://github.com/whoisiyann/CodeCafe/blob/0045f5003326c213272450525cba5646bded7f6b/Wireframe/Screenshot%202026-03-14%20120616.png) 
-![img alt](https://github.com/whoisiyann/CodeCafe/blob/0045f5003326c213272450525cba5646bded7f6b/Wireframe/Screenshot%202026-03-14%20120616.png) 
-![img alt](https://github.com/whoisiyann/CodeCafe/blob/0045f5003326c213272450525cba5646bded7f6b/Wireframe/Screenshot%202026-03-14%20120616.png) 
-![img alt](https://github.com/whoisiyann/CodeCafe/blob/0045f5003326c213272450525cba5646bded7f6b/Wireframe/Screenshot%202026-03-14%20120616.png) 
+![img alt](https://github.com/whoisiyann/CodeCafe/blob/56956e5e916ad79a2081decc9a113d93ec33bb41/Wireframe/Screenshot%202026-03-14%20120629.png) 
+![img alt](https://github.com/whoisiyann/CodeCafe/blob/56956e5e916ad79a2081decc9a113d93ec33bb41/Wireframe/Screenshot%202026-03-14%20120651.png) 
+![img alt](https://github.com/whoisiyann/CodeCafe/blob/56956e5e916ad79a2081decc9a113d93ec33bb41/Wireframe/Screenshot%202026-03-14%20120730.png) 
+![img alt](https://github.com/whoisiyann/CodeCafe/blob/56956e5e916ad79a2081decc9a113d93ec33bb41/Wireframe/Screenshot%202026-03-14%20120802.png) 
+![img alt](https://github.com/whoisiyann/CodeCafe/blob/56956e5e916ad79a2081decc9a113d93ec33bb41/Wireframe/Screenshot%202026-03-14%20120820.png) 
+![img alt](https://github.com/whoisiyann/CodeCafe/blob/56956e5e916ad79a2081decc9a113d93ec33bb41/Wireframe/Screenshot%202026-03-14%20120901.png) 
 
 
 ---
