@@ -6,27 +6,36 @@ A Smart Coffee Ordering System
 ![JavaFX](https://img.shields.io/badge/JavaFX-19-blue)
 ![GUI](https://img.shields.io/badge/GUI-Enabled-green)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-blue)
+![Contributors](https://img.shields.io/badge/Contributors-5-orange)
+![Demo](https://img.shields.io/badge/Demo-Available-brightgreen)
 
 ---
 
 ## **📖 Table of Contents**
 
-* [About the Project](#about-the-project)
-* [Features](#features)
-* [Wireframe](#wireframe)
-* [Flowchart](#flowchart)
-* [How It Works](#how-it-works)
-* [Installation](#installation)
+* [About the Project](#about-the-project)  
+* [Features](#features)  
+* [Wireframe](#wireframe)  
+* [Flowchart](#flowchart)  
+* [How It Works](#how-it-works)  
+* [Installation](#installation)  
+* [Demo](#demo)  
+* [License & Contributors](#license--contributors)  
 
 ---
 
 ## **📌 About the Project**
 
-**Code Café** is a Java GUI-based café ordering system designed to help small cafés or coffee shops manage customer orders efficiently.  
-The system allows users to select items from a menu that includes coffee, non-coffee drinks, and snacks, edit their selections if a mistake was made, and generate receipts.  
-Orders are displayed in a clear, user-friendly interface and stored using Java arrays or SQL. This project reduces manual errors, speeds up order processing, and provides a simple record of transactions.
+**Code Café** is a Java GUI-based café ordering system built to streamline order management for small cafés or coffee shops. The application allows users to:
 
-**Members:**  
+- Browse and select items from a categorized menu, including coffee, non-coffee beverages, and snacks.  
+- Edit or remove items before finalizing an order.  
+- Generate receipts for completed orders.  
+
+The interface is intuitive and user-friendly, ensuring quick navigation and minimal errors. Orders can be stored using Java arrays or an SQL database, providing a simple, organized record of transactions.  
+
+**Project Team:**  
 - JUNIO, IAN CHRISTOPHER L.  
 - SARMIENTO, BRYAN JOSEF E.  
 - ORTE, RAINAN S.  
@@ -37,51 +46,50 @@ Orders are displayed in a clear, user-friendly interface and stored using Java a
 
 ## **🚀 Features**
 
-* **Menu Selection:** Users can browse a categorized menu including coffee, non-coffee drinks, and snacks, and select items to order.  
-* **Order Summary & Receipt:** Displays the total price of the order and prints a simple receipt for the customer. Receipts can be saved as a file (text or PDF) for download if a printer is unavailable.  
-* **Order Management & Edit Orders:** Keeps track of current and past orders in a structured way for easy reference. Users can also edit or remove items from the order if a mistake was made before finalizing.  
-* **Search & Filter Menu:** Quickly find drinks by name or category to make ordering faster.  
-* **Simple Reporting:** Shows total orders for the day and popular menu items.  
+- **Menu Browsing & Selection:** Categorized menu of coffee, non-coffee drinks, and snacks for efficient ordering.  
+- **Order Summary & Receipt Generation:** Calculates totals and produces receipts in text or PDF format. Receipts can be printed or saved digitally.  
+- **Order Management:** Keeps track of current and past orders, allowing edits or removals before confirmation.  
+- **Search & Filter:** Quickly locate menu items by name or category to expedite the ordering process.  
+- **Reporting:** Provides simple analytics, including total orders for the day and most popular items.  
 
 ---
 
 ## **🧩 Wireframe**
 
-![img alt](https://github.com/whoisiyann/CodeCafe/blob/0045f5003326c213272450525cba5646bded7f6b/Wireframe/Screenshot%202026-03-14%20120616.png) 
-![img alt](https://github.com/whoisiyann/CodeCafe/blob/56956e5e916ad79a2081decc9a113d93ec33bb41/Wireframe/Screenshot%202026-03-14%20120629.png) 
-![img alt](https://github.com/whoisiyann/CodeCafe/blob/56956e5e916ad79a2081decc9a113d93ec33bb41/Wireframe/Screenshot%202026-03-14%20120651.png) 
-![img alt](https://github.com/whoisiyann/CodeCafe/blob/56956e5e916ad79a2081decc9a113d93ec33bb41/Wireframe/Screenshot%202026-03-14%20120730.png) 
-![img alt](https://github.com/whoisiyann/CodeCafe/blob/56956e5e916ad79a2081decc9a113d93ec33bb41/Wireframe/Screenshot%202026-03-14%20120802.png) 
-![img alt](https://github.com/whoisiyann/CodeCafe/blob/56956e5e916ad79a2081decc9a113d93ec33bb41/Wireframe/Screenshot%202026-03-14%20120820.png) 
-![img alt](https://github.com/whoisiyann/CodeCafe/blob/56956e5e916ad79a2081decc9a113d93ec33bb41/Wireframe/Screenshot%202026-03-14%20120901.png) 
-
+![Wireframe 1](https://github.com/whoisiyann/CodeCafe/blob/0045f5003326c213272450525cba5646bded7f6b/Wireframe/Screenshot%202026-03-14%20120616.png)  
+![Wireframe 2](https://github.com/whoisiyann/CodeCafe/blob/56956e5e916ad79a2081decc9a113d93ec33bb41/Wireframe/Screenshot%202026-03-14%20120629.png)  
+![Wireframe 3](https://github.com/whoisiyann/CodeCafe/blob/56956e5e916ad79a2081decc9a113d93ec33bb41/Wireframe/Screenshot%202026-03-14%20120651.png)  
+![Wireframe 4](https://github.com/whoisiyann/CodeCafe/blob/56956e5e916ad79a2081decc9a113d93ec33bb41/Wireframe/Screenshot%202026-03-14%20120730.png)  
+![Wireframe 5](https://github.com/whoisiyann/CodeCafe/blob/56956e5e916ad79a2081decc9a113d93ec33bb41/Wireframe/Screenshot%202026-03-14%20120802.png)  
+![Wireframe 6](https://github.com/whoisiyann/CodeCafe/blob/56956e5e916ad79a2081decc9a113d93ec33bb41/Wireframe/Screenshot%202026-03-14%20120820.png)  
+![Wireframe 7](https://github.com/whoisiyann/CodeCafe/blob/56956e5e916ad79a2081decc9a113d93ec33bb41/Wireframe/Screenshot%202026-03-14%20120901.png)  
 
 ---
 
 ## **🔁 Flowchart**
 
-<img width="834" src="path_to_flowchart.png" />
-<img width="834" src="path_to_flowchart.png" />
-<img width="834" src="path_to_flowchart.png" />
-<img width="834" src="path_to_flowchart.png" />
-<img width="834" src="path_to_flowchart.png" />
-<img width="834" src="path_to_flowchart.png" />
+![Flowchart 1](path_to_flowchart.png)  
+![Flowchart 2](path_to_flowchart.png)  
+![Flowchart 3](path_to_flowchart.png)  
+![Flowchart 4](path_to_flowchart.png)  
+![Flowchart 5](path_to_flowchart.png)  
+![Flowchart 6](path_to_flowchart.png)  
 
 ---
 
 ## **⚙️ How It Works**
 
 1. **Load Menu Items**  
-   Menu data (coffee, non-coffee, snacks) is loaded from Java arrays or SQL database.  
+   Menu data, including coffee, non-coffee beverages, and snacks, is retrieved from Java arrays or an SQL database.  
 
 2. **Select & Customize Orders**  
-   Users browse and add items to their order. Items can be modified or removed before finalizing.  
+   Users can add, modify, or remove items from their order before finalizing.  
 
 3. **Generate Receipt**  
-   The system calculates the total price and generates a receipt in text or PDF format.  
+   The system calculates the total and generates a receipt in text or PDF format.  
 
 4. **Track Orders**  
-   Orders are stored for reference, reporting, and analytics.  
+   All orders are stored for reporting, analytics, and reference.  
 
 ---
 
@@ -91,4 +99,4 @@ Orders are displayed in a clear, user-friendly interface and stored using Java a
 2. Install JavaFX 19: [Download JavaFX](https://openjfx.io/)  
 3. Clone this repository:  
 ```sh
-
+git clone https://github.com/yourusername/CodeCafe.git
