@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="cafe_specials_menu" prefHeight="751.0" prefWidth="1096.0" styleClass="nav-card" stylesheets="@../assets/css/menu.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutY="1.0" prefHeight="54.0" prefWidth="1094.0" styleClass="selection-card" stylesheets="@../assets/css/menu.css">
+         <children>
+            <Label layoutX="19.0" layoutY="11.0" prefHeight="36.0" prefWidth="236.0" styleClass="selection-text" stylesheets="@../assets/css/menu.css" text="Café Specials Menu" />
+         </children>
+      </AnchorPane>
+      <ScrollPane layoutX="22.0" layoutY="87.0" prefHeight="637.0" prefWidth="1058.0" styleClass="menu-bg" stylesheets="@../assets/css/menu.css">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1060.0" prefWidth="1060.0" styleClass="menu-bg" stylesheets="@../assets/css/menu.css">
+               <children>
+                  <AnchorPane fx:id="special1" layoutX="17.0" layoutY="5.0" prefHeight="276.0" prefWidth="228.0" styleClass="menu-card" stylesheets="@../assets/css/menu.css">
+                     <children>
+                        <Label layoutX="22.0" layoutY="192.0" styleClass="label-menu-name" stylesheets="@../assets/css/menu.css" text="Caramel Seasalt">
+                           <font>
+                              <Font size="4.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="22.0" layoutY="216.0" styleClass="label-menu-prize" stylesheets="@../assets/css/menu.css" text="₱ 129.00" />
+                        <ImageView fitHeight="184.0" fitWidth="200.0" layoutX="19.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/images/Coffee_Bases_Specials/caramel_seasalt.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="special_1" layoutX="177.0" layoutY="229.0" styleClass="plus-btn" stylesheets="@../assets/css/menu.css" text="+">
+                           <font>
+                              <Font size="39.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="special2" layoutX="273.0" layoutY="5.0" prefHeight="276.0" prefWidth="228.0" styleClass="menu-card" stylesheets="@../assets/css/menu.css">
+                     <children>
+                        <Label layoutX="22.0" layoutY="192.0" styleClass="label-menu-name" stylesheets="@../assets/css/menu.css" text="Oreo Cheesecake">
+                           <font>
+                              <Font size="4.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="22.0" layoutY="216.0" styleClass="label-menu-prize" stylesheets="@../assets/css/menu.css" text="₱ 129.00" />
+                        <ImageView fitHeight="184.0" fitWidth="200.0" layoutX="23.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/images/Coffee_Bases_Specials/oreo_cheesecake_tiramisu.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="special_2" layoutX="176.0" layoutY="229.0" styleClass="plus-btn" stylesheets="@../assets/css/menu.css" text="+">
+                           <font>
+                              <Font size="39.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="special3" layoutX="530.0" layoutY="5.0" prefHeight="276.0" prefWidth="228.0" styleClass="menu-card" stylesheets="@../assets/css/menu.css">
+                     <children>
+                        <Label layoutX="22.0" layoutY="192.0" styleClass="label-menu-name" stylesheets="@../assets/css/menu.css" text="House Special">
+                           <font>
+                              <Font size="4.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="22.0" layoutY="216.0" styleClass="label-menu-prize" stylesheets="@../assets/css/menu.css" text="₱ 129.00" />
+                        <ImageView fitHeight="184.0" fitWidth="200.0" layoutX="22.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/images/Coffee_Bases_Specials/house_special.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="special_3" layoutX="179.0" layoutY="229.0" styleClass="plus-btn" stylesheets="@../assets/css/menu.css" text="+">
+                           <font>
+                              <Font size="39.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="special4" layoutX="785.0" layoutY="5.0" prefHeight="276.0" prefWidth="228.0" styleClass="menu-card" stylesheets="@../assets/css/menu.css">
+                     <children>
+                        <Label layoutX="22.0" layoutY="192.0" styleClass="label-menu-name" stylesheets="@../assets/css/menu.css" text="Spanish Cereal">
+                           <font>
+                              <Font size="4.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="22.0" layoutY="216.0" styleClass="label-menu-prize" stylesheets="@../assets/css/menu.css" text="₱129.00" />
+                        <ImageView fitHeight="184.0" fitWidth="200.0" layoutX="19.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/images/Coffee_Bases_Specials/spanish_cereal.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="special_4" layoutX="176.0" layoutY="229.0" styleClass="plus-btn" stylesheets="@../assets/css/menu.css" text="+">
+                           <font>
+                              <Font size="39.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="special5" layoutX="17.0" layoutY="303.0" prefHeight="276.0" prefWidth="228.0" styleClass="menu-card" stylesheets="@../assets/css/menu.css">
+                     <children>
+                        <Label layoutX="22.0" layoutY="192.0" styleClass="label-menu-name" stylesheets="@../assets/css/menu.css" text="Hazelnut Mocha">
+                           <font>
+                              <Font size="4.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="22.0" layoutY="216.0" styleClass="label-menu-prize" stylesheets="@../assets/css/menu.css" text="₱ 129.00" />
+                        <ImageView fitHeight="184.0" fitWidth="200.0" layoutX="19.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/images/Coffee_Bases_Specials/hazelnut_mocha.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="special_5" layoutX="176.0" layoutY="229.0" styleClass="plus-btn" stylesheets="@../assets/css/menu.css" text="+">
+                           <font>
+                              <Font size="39.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="special6" layoutX="273.0" layoutY="303.0" prefHeight="276.0" prefWidth="228.0" styleClass="menu-card" stylesheets="@../assets/css/menu.css">
+                     <children>
+                        <Label layoutX="22.0" layoutY="192.0" styleClass="label-menu-name" stylesheets="@../assets/css/menu.css" text="Dirty Matcha">
+                           <font>
+                              <Font size="4.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="22.0" layoutY="216.0" styleClass="label-menu-prize" stylesheets="@../assets/css/menu.css" text="₱ 139.00" />
+                        <ImageView fitHeight="184.0" fitWidth="200.0" layoutX="23.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/images/Coffee_Bases_Specials/dirty_matcha.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="special_6" layoutX="176.0" layoutY="229.0" styleClass="plus-btn" stylesheets="@../assets/css/menu.css" text="+">
+                           <font>
+                              <Font size="39.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="nonCoffee_menu" prefHeight="751.0" prefWidth="1096.0" styleClass="nav-card" stylesheets="@../assets/css/menu.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutY="1.0" prefHeight="54.0" prefWidth="1094.0" styleClass="selection-card" stylesheets="@../assets/css/menu.css">
+         <children>
+            <Label fx:id="fruit_soda_menu" layoutX="19.0" layoutY="11.0" prefHeight="36.0" prefWidth="236.0" styleClass="selection-text" stylesheets="@../assets/css/menu.css" text="Fruit Soda Menu" />
+         </children>
+      </AnchorPane>
+      <ScrollPane layoutX="22.0" layoutY="87.0" prefHeight="637.0" prefWidth="1058.0" styleClass="menu-bg" stylesheets="@../assets/css/menu.css">
+         <content>
+            <AnchorPane fx:id="fruit_soda_menu" minHeight="0.0" minWidth="0.0" prefHeight="1060.0" prefWidth="1060.0" styleClass="menu-bg" stylesheets="@../assets/css/menu.css">
+               <children>
+                  <AnchorPane fx:id="soda1" layoutX="17.0" layoutY="5.0" prefHeight="276.0" prefWidth="228.0" styleClass="menu-card" stylesheets="@../assets/css/menu.css">
+                     <children>
+                        <Label layoutX="22.0" layoutY="192.0" styleClass="label-menu-name" stylesheets="@../assets/css/menu.css" text="Blueberry Soda">
+                           <font>
+                              <Font size="4.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="22.0" layoutY="216.0" styleClass="label-menu-prize" stylesheets="@../assets/css/menu.css" text="₱ 69.00" />
+                        <ImageView fitHeight="184.0" fitWidth="200.0" layoutX="19.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/images/Fruit_Soda/blueberry_soda.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="soda_1" layoutX="177.0" layoutY="229.0" styleClass="plus-btn" stylesheets="@../assets/css/menu.css" text="+">
+                           <font>
+                              <Font size="39.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="soda2" layoutX="273.0" layoutY="5.0" prefHeight="276.0" prefWidth="228.0" styleClass="menu-card" stylesheets="@../assets/css/menu.css">
+                     <children>
+                        <Label layoutX="22.0" layoutY="192.0" styleClass="label-menu-name" stylesheets="@../assets/css/menu.css" text="Strawberry Soda">
+                           <font>
+                              <Font size="4.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="22.0" layoutY="216.0" styleClass="label-menu-prize" stylesheets="@../assets/css/menu.css" text="₱ 69.00" />
+                        <ImageView fitHeight="184.0" fitWidth="200.0" layoutX="19.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/images/Fruit_Soda/strawberry_soda.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="soda_2" layoutX="177.0" layoutY="229.0" styleClass="plus-btn" stylesheets="@../assets/css/menu.css" text="+">
+                           <font>
+                              <Font size="39.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="soda3" layoutX="530.0" layoutY="5.0" prefHeight="276.0" prefWidth="228.0" styleClass="menu-card" stylesheets="@../assets/css/menu.css">
+                     <children>
+                        <Label layoutX="22.0" layoutY="192.0" styleClass="label-menu-name" stylesheets="@../assets/css/menu.css" text="Green Apple Soda">
+                           <font>
+                              <Font size="4.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="22.0" layoutY="216.0" styleClass="label-menu-prize" stylesheets="@../assets/css/menu.css" text="₱ 69.00" />
+                        <ImageView fitHeight="184.0" fitWidth="200.0" layoutX="19.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/images/Fruit_Soda/green_apple_soda.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="soda_3" layoutX="177.0" layoutY="229.0" styleClass="plus-btn" stylesheets="@../assets/css/menu.css" text="+">
+                           <font>
+                              <Font size="39.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="soda4" layoutX="785.0" layoutY="5.0" prefHeight="276.0" prefWidth="228.0" styleClass="menu-card" stylesheets="@../assets/css/menu.css">
+                     <children>
+                        <Label layoutX="22.0" layoutY="192.0" styleClass="label-menu-name" stylesheets="@../assets/css/menu.css" text="Lychee Soda">
+                           <font>
+                              <Font size="4.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="22.0" layoutY="216.0" styleClass="label-menu-prize" stylesheets="@../assets/css/menu.css" text="₱ 69.00" />
+                        <ImageView fitHeight="184.0" fitWidth="200.0" layoutX="19.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/images/Fruit_Soda/lychee_soda.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="soda_4" layoutX="177.0" layoutY="229.0" styleClass="plus-btn" stylesheets="@../assets/css/menu.css" text="+">
+                           <font>
+                              <Font size="39.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="soda5" layoutX="17.0" layoutY="303.0" prefHeight="276.0" prefWidth="228.0" styleClass="menu-card" stylesheets="@../assets/css/menu.css">
+                     <children>
+                        <Label layoutX="22.0" layoutY="192.0" styleClass="label-menu-name" stylesheets="@../assets/css/menu.css" text="Passionfruit Soda">
+                           <font>
+                              <Font size="4.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="22.0" layoutY="216.0" styleClass="label-menu-prize" stylesheets="@../assets/css/menu.css" text="₱ 69.00" />
+                        <ImageView fitHeight="184.0" fitWidth="200.0" layoutX="19.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/images/Fruit_Soda/passionfruit_soda.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="soda_5" layoutX="177.0" layoutY="229.0" styleClass="plus-btn" stylesheets="@../assets/css/menu.css" text="+">
+                           <font>
+                              <Font size="39.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="soda6" layoutX="273.0" layoutY="303.0" prefHeight="276.0" prefWidth="228.0" styleClass="menu-card" stylesheets="@../assets/css/menu.css">
+                     <children>
+                        <Label layoutX="22.0" layoutY="192.0" styleClass="label-menu-name" stylesheets="@../assets/css/menu.css" text="Hibiscus Soda">
+                           <font>
+                              <Font size="4.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="22.0" layoutY="216.0" styleClass="label-menu-prize" stylesheets="@../assets/css/menu.css" text="₱ 69.00" />
+                        <ImageView fitHeight="184.0" fitWidth="200.0" layoutX="19.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/images/Fruit_Soda/hibiscus_soda.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="soda_6" layoutX="177.0" layoutY="229.0" styleClass="plus-btn" stylesheets="@../assets/css/menu.css" text="+">
+                           <font>
+                              <Font size="39.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,30 @@
+.label {
+    -fx-font-family: "Poppins";
+    -fx-font-size: 30px;
+    -fx-text-fill: #6B3F2A; 
+    -fx-font-weight: bold; 
+}
+.label1 {
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 60px;
+    -fx-text-fill: #6B3F2A; 
+    -fx-font-weight: bold; 
+}
+
+.card {
+    -fx-background-color: #ffffff;      
+    -fx-background-radius: 15;          
+    -fx-padding: 20;                  
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 10, 0.5, 0, 4);
+    -fx-cursor: hand;   
+    -fx-scale-x: 1;
+    -fx-scale-y: 1;
+    -fx-transition: all 0.3s ease; 
+}
+
+.card:hover {
+    -fx-background-color: #f0f0f0;     
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.35), 15, 0.5, 0, 5);
+    -fx-scale-x: 1.05;               
+    -fx-scale-y: 1.05;
+}

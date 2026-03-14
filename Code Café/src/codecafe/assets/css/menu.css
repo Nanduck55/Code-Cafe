@@ -1,0 +1,248 @@
+.background {
+    -fx-background-color: #F4EFEA;
+}
+
+.label {
+    -fx-font-family: "Poppins";
+    -fx-font-size: 60px;
+    -fx-text-fill: #FFFFFF; 
+    -fx-font-weight: bold; 
+}
+.top {
+    -fx-background-color: #6B3F2A;
+}
+
+.btn {
+    -fx-font-family: "Montserrat";
+    -fx-font-size: 40px;
+    -fx-text-fill: #6B3F2A; 
+    -fx-font-weight: bold;
+
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.btn:hover{
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.35), 15, 0.5, 0, 5);
+    -fx-scale-x: 1.05;               
+    -fx-scale-y: 1.05;
+}
+
+.nav-card {
+    -fx-background-color: #E6D8C9;
+    -fx-background-radius: 15;
+
+    -fx-border-color: #e6e6e6;
+    -fx-border-radius: 15;
+
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 8, 0.3, 0, 3);
+
+    -fx-cursor: hand;
+}
+
+.selection-card {
+    -fx-background-color: #6B3F2A;   
+    -fx-background-radius: 10 10 0 0;  
+    -fx-max-width: Infinity;
+    -fx-padding: 5 0 0 0;  
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 5, 0.3, 0, 2);
+}
+
+.selection-text {
+    -fx-font-family: "Montserrat";
+    -fx-font-size:25px;
+    -fx-text-fill: #FFFFFF; 
+    -fx-font-weight: 700; 
+}
+
+.nav-menu-card {
+    -fx-background-color: #E6D8C9;       
+    -fx-background-radius: 20;            
+    -fx-max-width: Infinity;                                   
+}
+
+.nav-menu-card:hover {
+    -fx-background-color: #f0f0f0;     
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.35), 15, 0.5, 0, 5);
+    -fx-scale-x: 1.05;               
+    -fx-scale-y: 1.05;
+}
+
+.nav-menu-card-active {
+    -fx-background-color: #4A2E1F;       
+    -fx-background-radius: 20;            
+    -fx-max-width: Infinity;                                   
+}
+
+.nav-button {
+    -fx-text-fill: #6B3F2A;  
+    -fx-font-family: "Poppins";
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 0 10 0 10;
+}
+
+
+.nav-button-active {
+    -fx-text-fill: #FFFFFF;  
+    -fx-font-family: "Poppins";
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 0 10 0 10;
+}
+
+.menu-bg {
+    -fx-background-color: #E6D8C9;
+}
+
+.menu-card {
+    -fx-background-color: #F4EFEA;       
+    -fx-background-radius: 15;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 10, 0.5, 0, 5);
+}
+
+.menu-card:hover {
+    -fx-background-color: #E8DED6; 
+    -fx-scale-x: 1.03;
+    -fx-scale-y: 1.03;
+}
+
+.label-menu-name {
+    -fx-font-family: "Poppins";
+    -fx-font-size: 20px;
+    -fx-text-fill: #1F1F1F; 
+    -fx-font-weight: bold; 
+}
+
+.label-menu-prize {
+    -fx-font-family: "Poppins";
+    -fx-font-size: 20px;
+    -fx-text-fill: #B5834A; 
+    -fx-font-weight: bold; 
+}
+
+.txt-wrap {
+    -fx-line-spacing: 0px;
+}
+
+.plus-btn {
+    -fx-background-color: #6b3e26; 
+    -fx-text-fill: white; 
+    -fx-font-size: 18px;
+    -fx-alignment: center;
+
+    -fx-min-width: 35px;
+    -fx-min-height: 35px;
+    -fx-max-width: 35px;
+    -fx-max-height: 35px;
+
+    -fx-background-radius: 50;
+}
+
+.plus-btn:hover {
+    -fx-background-color: #8b5a3c;
+    -fx-cursor: hand;
+
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+
+.back-customize-btn {
+    -fx-font-family: "Montserrat";
+    -fx-font-size: 20px;
+    -fx-text-fill: #6B3F2A; 
+    -fx-font-weight: bold;
+
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.back-customize-btn:hover{
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.35), 15, 0.5, 0, 5);
+    -fx-scale-x: 1.05;               
+    -fx-scale-y: 1.05;
+}
+
+.description-label {
+    -fx-font-family: "arial";
+    -fx-font-size: 15px;
+}
+
+.ordered_item_label  {
+    -fx-font-family: "Montserrat";
+    -fx-font-size: 30px;
+    -fx-text-fill: #6b3e26; 
+    -fx-font-weight: bold;
+}
+
+.check-out-anchorPane-bg {
+    -fx-background-color: #6B3F2A;   
+    -fx-background-radius: 10;  
+    -fx-max-width: Infinity;
+    -fx-padding: 5 0 0 0;  
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 5, 0.3, 0, 2);
+}
+
+.check-out-label {
+    -fx-font-family: "Poppins";
+    -fx-text-fill: #FFFFFF;  
+    -fx-font-size: 20px;
+    -fx-font-weight: 700; 
+}
+
+.check-out-totalItem-label {
+    -fx-font-family: "Poppins";
+    -fx-text-fill: #FFFFFF;  
+    -fx-font-size: 18px;
+    -fx-font-weight: 500; 
+}
+
+
+.check-out-btn {
+    -fx-background-color: #C69A6B; 
+    -fx-text-fill: white; 
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;   
+
+    -fx-alignment: center;
+
+    -fx-min-width: 120px;
+    -fx-min-height: 40px;
+    -fx-max-width: 50px;
+    -fx-max-height: 35px;
+
+    -fx-background-radius: 40;
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.25), 5, 0.3, 0, 2);
+}
+
+.check-out-btn:hover {
+    -fx-cursor: hand;
+    -fx-background-color: #B5835A; 
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+
+.delete-all-item {
+    -fx-font-family: "Poppins";
+    -fx-text-fill: #FFFFFF;  
+    -fx-font-size: 18px;
+    -fx-font-weight: bold; 
+}
+
+.delete-all-item:hover {
+    -fx-cursor: hand;
+
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
