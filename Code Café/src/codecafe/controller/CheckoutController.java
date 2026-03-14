@@ -35,7 +35,8 @@ public class CheckoutController {
     @FXML private Label total_price_label2;
     @FXML private Button back_to_menu_btn;
 
-    private static int orderCounter = 1; // Simple order # generator
+    // Simple order no.# generator
+    private static int orderCounter = 1; 
 
     public void loadCheckoutData(HashMap<String, Node> orderedItemsMap, int totalItems, double totalPrice) {
         ordered_items_VBox2.getChildren().clear();
@@ -79,7 +80,7 @@ public class CheckoutController {
         checkout_btn2.setOnAction(e -> printReceipt());
     }
 
-    // Generate receipt text with updated info
+    // Generate receipt text
     private String generateReceipt(HashMap<String, Node> orderedItemsMap, int totalItems, double totalPrice, String orderType) {
         StringBuilder receipt = new StringBuilder();
         LocalDateTime now = LocalDateTime.now();
@@ -98,7 +99,6 @@ public class CheckoutController {
         receipt.append("Date: ").append(dateTime).append("\n");
         receipt.append("--------------------------------\n");
 
-        // --- inside generateReceipt() method ---
 
         for (Node itemCard : orderedItemsMap.values()) {
             Label nameLabel = (Label) itemCard.lookup("#ordered_name");
@@ -114,7 +114,7 @@ public class CheckoutController {
             receipt.append(String.format("%-15s %3s  ₱ %s\n", name, qty, price));
 
             if (!addons.isEmpty()) {
-                // --- wrap add-ons text ---
+                // wrap add-ons text 
                 int wrapLength = 30; // max chars per line
                 StringBuilder wrapped = new StringBuilder("  Add-ons: ");
                 int count = 0;
@@ -145,21 +145,20 @@ public class CheckoutController {
 @FXML
 private void printReceipt() {
     try {
-        // --- Load logo ---
+
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/codecafe/view/logoprint.fxml"));
         ImageView logoView = loader.load();
         logoView.setFitWidth(150);
         logoView.setFitHeight(125);
         logoView.setPreserveRatio(true);
 
-        // --- Put logo inside HBox for proper alignment ---
+        // Put logo inside HBox for printing
         HBox logoContainer = new HBox();
-        logoContainer.setPrefWidth(450);               // same width as printContent
-        logoContainer.setAlignment(Pos.TOP_LEFT);      // align logo to left
-        logoContainer.setPadding(new Insets(0, 0, 0, 50)); // adjust horizontal offset (50 = move right)
-        logoContainer.getChildren().add(logoView);
+        logoContainer.setPrefWidth(450);               
+        logoContainer.setAlignment(Pos.TOP_LEFT);      
+        logoContainer.setPadding(new Insets(0, 0, 0, 50)); 
 
-        // --- Generate receipt text ---
+        // Generate receipt text 
         String receiptText = generateReceipt(
                 OrderData.getInstance().getOrderMap(),
                 OrderData.getInstance().getTotalItems(),
@@ -167,24 +166,24 @@ private void printReceipt() {
                 OrderData.getInstance().getOrderType()
         );
 
-        // --- Create receipt label with wrapping ---
+        //  Create receipt label with wrapping 
         Label receiptLabel = new Label(receiptText);
         receiptLabel.setStyle("-fx-font-family: 'Courier New'; -fx-font-size: 12; -fx-text-fill: black;");
-        receiptLabel.setWrapText(true);    // ensures long lines wrap
-        receiptLabel.setMaxWidth(400);     // adjust width as needed
+        receiptLabel.setWrapText(true);    
+        receiptLabel.setMaxWidth(400);     
 
-        // --- Create VBox to hold logo HBox and receipt text ---
+        // Create VBox to hold logo HBox and receipt text 
         VBox printContent = new VBox();
         printContent.setSpacing(10);
-        printContent.setStyle("-fx-padding: 20;");  // padding for margins
+        printContent.setStyle("-fx-padding: 20;");  
         printContent.setPrefWidth(450);
         printContent.setMaxWidth(450);
-        printContent.setAlignment(Pos.TOP_CENTER);   // centers receipt text horizontally
+        printContent.setAlignment(Pos.TOP_CENTER);   
 
         // Add logo container and receipt label
         printContent.getChildren().addAll(logoContainer, receiptLabel);
 
-        // --- Printer job ---
+        //  Printer job 
         PrinterJob job = PrinterJob.createPrinterJob();
         if (job != null) {
             job.getJobSettings().setPrintColor(PrintColor.MONOCHROME);
@@ -201,7 +200,7 @@ private void printReceipt() {
             }
         }
 
-        // --- Open PDF/Print options window ---
+        //  Open PDF/Print options window 
         FXMLLoader pdfLoader = new FXMLLoader(getClass().getResource("/codecafe/view/print_or_savePDF.fxml"));
         Parent pdfRoot = pdfLoader.load();
         Stage stage = new Stage();
