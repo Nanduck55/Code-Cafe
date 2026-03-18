@@ -423,7 +423,7 @@ public class MenuController {
                 Node existingCard = orderedItemsMap.get(key);
 
                 Label qtyLabel = (Label) existingCard.lookup("#orderedQuantityLabel");
-                Label priceLabel = (Label) existingCard.lookup("#ordered_prize");
+                Label priceLabel = (Label) existingCard.lookup("#ordered_price");
 
                 int currentQty = Integer.parseInt(qtyLabel.getText());
                 currentQty += quantity;
@@ -445,7 +445,7 @@ public class MenuController {
             // GET UI ELEMENTS
             ImageView orderedImage = (ImageView) itemCard.lookup("#ordered_image");
             Label orderedName = (Label) itemCard.lookup("#ordered_name");
-            Label orderedPrice = (Label) itemCard.lookup("#ordered_prize");
+            Label orderedPrice = (Label) itemCard.lookup("#ordered_price");
             Text orderedAddons = (Text) itemCard.lookup("#ordered_addons");
             Label orderedQuantityLabel = (Label) itemCard.lookup("#orderedQuantityLabel");
             Button minusBtn = (Button) itemCard.lookup("#ordered_minusBtn");

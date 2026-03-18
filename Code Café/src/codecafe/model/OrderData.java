@@ -11,7 +11,9 @@ public class OrderData {
     private int totalItems = 0;
     public double totalPrice = 0;
     private String orderType = "";   
-
+    
+    private int orderCounter = 1;
+    
     // Singleton access
     public static OrderData getInstance() {
         if(instance == null){
@@ -59,5 +61,13 @@ public class OrderData {
         totalItems = 0;
         totalPrice = 0;
         orderType = "";
+    }
+
+    public void clearData() {
+        orderMap.clear();
+        totalItems = 0;
+        totalPrice = 0;
+        orderType = null;
+
     }
 }

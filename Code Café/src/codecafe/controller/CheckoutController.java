@@ -102,8 +102,8 @@ public class CheckoutController {
 
         for (Node itemCard : orderedItemsMap.values()) {
             Label nameLabel = (Label) itemCard.lookup("#ordered_name");
-            Label qtyLabel = (Label) itemCard.lookup("#ordered_name1");
-            Label priceLabel = (Label) itemCard.lookup("#ordered_prize");
+            Label qtyLabel = (Label) itemCard.lookup("#orderedQuantityLabel");
+            Label priceLabel = (Label) itemCard.lookup("#ordered_price");
             Text addonsText = (Text) itemCard.lookup("#ordered_addons");
 
             String name = nameLabel != null ? nameLabel.getText() : "";
@@ -201,12 +201,10 @@ private void printReceipt() {
         }
 
         //  Open PDF/Print options window 
-        FXMLLoader pdfLoader = new FXMLLoader(getClass().getResource("/codecafe/view/print_or_savePDF.fxml"));
+        FXMLLoader pdfLoader = new FXMLLoader(getClass().getResource("/codecafe/view/print_or_showReceipt.fxml"));
         Parent pdfRoot = pdfLoader.load();
-        Stage stage = new Stage();
-        stage.setTitle("Receipt PDF / Print Options");
-        stage.setScene(new Scene(pdfRoot));
-        stage.show();
+        Stage stage = (Stage) checkout_btn2.getScene().getWindow();
+        stage.setScene(new Scene(pdfRoot, 1920, 1080));
 
     } catch (Exception ex) {
         ex.printStackTrace();

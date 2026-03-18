@@ -29,7 +29,7 @@
                <VBox.margin>
                   <Insets top="10.0" />
                </VBox.margin></Label>
-                <Label fx:id="ordered_prize" styleClass="ordered-prize" text="₱ 00.00" />
+                <Label fx:id="ordered_price" styleClass="ordered-prize" text="₱ 00.00" />
             <Text fx:id="ordered_addons" strokeType="OUTSIDE" strokeWidth="0.0" text="Add ons: Caramel Syrup, Espresso shot, Whipped Cream" wrappingWidth="166.99935913085938" />
             </VBox>
 
