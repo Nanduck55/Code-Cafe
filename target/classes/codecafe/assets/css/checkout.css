@@ -1,0 +1,113 @@
+.background {
+    -fx-background-color: #F4EFEA;
+}
+
+.vbox-bg {
+    -fx-background-color: #E6D8C9;
+}
+
+.scroll-pane-achor-bg {
+    -fx-background-color: #E6D8C9;
+}
+
+
+.top-label {
+    -fx-font-family: "Poppins";
+    -fx-font-size: 60px;
+    -fx-text-fill: #FFFFFF; 
+    -fx-font-weight: bold; 
+}
+
+.top {
+    -fx-background-color: #6B3F2A;
+}
+
+.nav-card {
+    -fx-background-color: #E6D8C9;
+    -fx-background-radius: 15;
+
+    -fx-border-color: #e6e6e6;
+    -fx-border-radius: 15;
+
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 8, 0.3, 0, 3);
+
+    -fx-cursor: hand;
+}
+
+.order-list-label {
+    fx-font-family: "Montserrat";
+    -fx-font-size: 50px;
+    -fx-text-fill: #1F1F1F; 
+    -fx-font-weight: bold; 
+}
+
+.order_type_label {
+    fx-font-family: "Poppins";
+    -fx-font-size: 40px;
+    -fx-text-fill: #4A2E1F; 
+    -fx-font-weight: bold; 
+}
+
+
+.check-out-anchorPane-bg {
+    -fx-background-color: #6B3F2A;   
+    -fx-background-radius: 10;  
+    -fx-max-width: Infinity;
+    -fx-padding: 5 0 0 0;  
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 5, 0.3, 0, 2);
+}
+
+.check-out-label {
+    -fx-font-family: "Poppins";
+    -fx-text-fill: #FFFFFF;  
+    -fx-font-size: 35px;
+    -fx-font-weight: 700; 
+}
+
+.check-out-totalItem-label {
+    -fx-font-family: "Poppins";
+    -fx-text-fill: #FFFFFF;  
+    -fx-font-size: 25px;
+    -fx-font-weight: 500; 
+}
+
+
+.check-out-btn {
+    -fx-background-color: #C69A6B; 
+    -fx-text-fill: white; 
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;   
+
+    -fx-alignment: center;
+
+    -fx-min-width: 200px;
+    -fx-min-height: 60px;
+    -fx-max-width: 200px;
+    -fx-max-height: 60px;
+
+    -fx-background-radius: 40;
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.25), 5, 0.3, 0, 2);
+}
+
+.check-out-btn:hover {
+    -fx-cursor: hand;
+    -fx-background-color: #B5835A; 
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.back-to-menu-btn {
+    -fx-font-family: "Montserrat";
+    -fx-font-size: 30px;
+    -fx-text-fill: #6B3F2A; 
+    -fx-font-weight: bold;
+
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.back-to-menu-btn:hover{
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.35), 15, 0.5, 0, 5);
+    -fx-scale-x: 1.05;               
+    -fx-scale-y: 1.05;
+}

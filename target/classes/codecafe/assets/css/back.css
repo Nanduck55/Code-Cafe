@@ -1,0 +1,42 @@
+.back-ancnhor-pane {
+    -fx-background-color: #E6D8C9;       
+    -fx-background-radius: 20; 
+}
+
+.label-back-to-menu  {
+    -fx-font-family: "Montserrat";
+    -fx-font-size: 50px;
+    -fx-text-fill: #6b3e26; 
+    -fx-font-weight: bold;
+}
+.label-back-to-menu1  {
+    -fx-font-family: "Montserrat";
+    -fx-font-size: 30px;
+    -fx-text-fill: #6b3e26; 
+    -fx-font-weight: bold;
+}
+
+
+.btn {
+    -fx-background-color: #6b3e26;
+    -fx-text-fill: white; 
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;   
+
+    -fx-alignment: center;
+
+    -fx-min-width: 150px;
+    -fx-min-height: 65px;
+    -fx-max-width: 150px;
+    -fx-max-height: 65px;
+
+    -fx-background-radius: 8;
+}
+
+.btn:hover {
+    -fx-background-color: #8b5a3c;
+    -fx-cursor: hand;
+
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}

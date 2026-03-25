@@ -36,7 +36,7 @@ public class CheckoutController {
     @FXML private Button back_to_menu_btn;
 
     // Simple order no.# generator
-    private static int orderCounter = 1; 
+    private static int orderCounter = 101;
 
     public void loadCheckoutData(HashMap<String, Node> orderedItemsMap, int totalItems, double totalPrice) {
         ordered_items_VBox2.getChildren().clear();
@@ -63,6 +63,7 @@ public class CheckoutController {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/codecafe/view/menu.fxml"));
             Parent root = loader.load();
+
             MenuController controller = loader.getController();
 
             OrderData data = OrderData.getInstance();
@@ -164,6 +165,35 @@ private void printReceipt() {
                 OrderData.getInstance().getTotalItems(),
                 OrderData.getInstance().getTotalPrice(),
                 OrderData.getInstance().getOrderType()
+        );
+
+        // --- TRANSLATE CARDS TO TEXT & SEND TO DATABASE ---
+        StringBuilder itemsSummary = new StringBuilder();
+
+        for (Node itemCard : codecafe.model.OrderData.getInstance().getOrderMap().values()) {
+            Label nameLabel = (Label) itemCard.lookup("#ordered_name");
+            Label qtyLabel = (Label) itemCard.lookup("#orderedQuantityLabel");
+            Text addonsText = (Text) itemCard.lookup("#ordered_addons");
+
+            String name = (nameLabel != null) ? nameLabel.getText() : "Item";
+            String qty = (qtyLabel != null) ? qtyLabel.getText() : "x1";
+            String addons = (addonsText != null) ? addonsText.getText() : "";
+
+            itemsSummary.append(name).append("\n");
+
+            if (!addons.trim().isEmpty()) {
+                String[] addonArray = addons.split(", ");
+                for (String addon : addonArray) {
+                    itemsSummary.append("  + ").append(addon).append("\n");
+                }
+            }
+        }
+        System.out.println("DEBUG PAYLOAD:\n" + itemsSummary.toString());
+
+        codecafe.util.DatabaseHelper.saveOrder(
+                (orderCounter - 1),
+                itemsSummary.toString().trim(),
+                codecafe.model.OrderData.getInstance().getOrderType()
         );
 
         //  Create receipt label with wrapping 

@@ -321,6 +321,19 @@ public class MenuController {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/codecafe/view/back.fxml"));
             Parent backPane = loader.load();
 
+//remove or comment this line if you encounter a screen error------------------------------------
+            double screenwith = javafx.stage.Screen.getPrimary().getBounds().getWidth();
+            double screenheight = javafx.stage.Screen.getPrimary().getBounds().getHeight();
+
+            double scaleX = screenwith / 1920.0;
+            double scaleY = screenheight / 1080.0;
+
+            javafx.scene.transform.Scale scale = new javafx.scene.transform.Scale(scaleX, scaleY);
+            scale.setPivotX(0);
+            scale.setPivotY(0);
+            backPane.getTransforms().add(scale);
+//----------------------------------------------------------------------------------------------
+
             // Create a new stage for modal dialog
             Stage dialogStage = new Stage();
             dialogStage.setTitle("");

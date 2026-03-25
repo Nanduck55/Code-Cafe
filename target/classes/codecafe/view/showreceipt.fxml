@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="TOP_CENTER" prefWidth="400.0" spacing="5" style="-fx-padding: 15; -fx-background-color: white; -fx-font-family: 'Courier New'; -fx-font-size: 12;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="codecafe.controller.ShowReceiptController">
+
+    <!-- Logo -->
+    <ImageView fitHeight="84" fitWidth="134">
+        <image>
+            <Image url="@../assets/images/logo.png" />
+        </image>
+    </ImageView>
+
+    <Separator />
+
+    <!-- Store Info -->
+    <Label style="-fx-font-weight: bold; -fx-font-size: 14;" text="Code Café" />
+    <Label text="Arellano Street, Downtown" />
+    <Label text="Dagupan City, 2400 Pang." />
+    <Label text="Email: codecafe@gmail.com" />
+    <Label text="Tel: (700) 574-2002" />
+
+    <Separator />
+
+    <!-- Order Info -->
+    <Label fx:id="orderNumberLabel" text="Order #: 00001" />
+    <Label fx:id="orderTypeLabel" text="Order Type: Dine-In" />
+    <Label fx:id="dateLabel" text="Date: ----" />
+
+    <Separator />
+
+    <!-- Items Header -->
+    <VBox fx:id="itemsContainer" alignment="TOP_LEFT">
+        <!-- Example Item -->
+        <HBox spacing="5">
+            <Label fx:id="ordered_NAME" prefWidth="150" text="Item Name" />
+            <Label fx:id="quantity_LABEL" prefHeight="15.0" prefWidth="48.0" text="x1" />
+            <Label fx:id="ordered_PRICE" prefHeight="15.0" prefWidth="99.0" text="₱ 0.00" />
+        </HBox>
+        <Label fx:id="ordered_ADDONS" text="Add ons: Caramel Syrup, Espresso shot, Whipped Cream" wrapText="true">
+         <VBox.margin>
+            <Insets bottom="15.0" />
+         </VBox.margin></Label>
+    </VBox>
+
+    <Separator />
+
+    <!-- Total -->
+    <Label fx:id="totalItemsLabel" style="-fx-font-weight: bold;" text="TOTAL ITEMS: 0" />
+    <Label fx:id="totalPriceLabel" style="-fx-font-weight: bold;" text="TOTAL PRICE: ₱ 0.00" />
+
+    <Separator />
+
+    <!-- Footer -->
+    <Label text="Thank you for visiting Code Café!" />
+    <Label text="Enjoy your day!" />
+
+</VBox>

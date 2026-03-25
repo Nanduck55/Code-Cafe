@@ -21,6 +21,7 @@ public class ClickStartController {
     private void handleClick(MouseEvent event) {
         try {
             Parent orderTypeRoot = FXMLLoader.load(getClass().getResource("/codecafe/view/order_type.fxml"));
+
             Scene scene = new Scene(orderTypeRoot, 1920, 1080);
             Stage stage = (Stage) rootPane.getScene().getWindow();
             stage.setScene(scene);

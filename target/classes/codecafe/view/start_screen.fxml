@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" prefHeight="1080.0" prefWidth="1920.0" stylesheets="@../styles.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="codecafe.controller.ClickStartController">
+
+    <children>
+        <!-- Background Image -->
+        <ImageView fx:id="click" fitHeight="1080" fitWidth="1920" pickOnBounds="true" preserveRatio="false">
+            <image>
+                <Image url="@../assets/images/background.png" />
+            </image>
+        </ImageView>
+
+        <!-- Logo Image -->
+        <ImageView fitHeight="527" fitWidth="751" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../assets/images/logo.png" />
+            </image>
+            <AnchorPane.leftAnchor>584.5</AnchorPane.leftAnchor>
+            <AnchorPane.topAnchor>276.5</AnchorPane.topAnchor>
+        </ImageView>
+
+        <!-- Label -->
+        <Label id="button" fx:id="clicklabel" layoutX="802.2" layoutY="697.6" prefHeight="90" prefWidth="394" stylesheets="@../assets/css/scene1and2.css" text="Click anywhere to start">
+            <AnchorPane.leftAnchor>802.2</AnchorPane.leftAnchor>
+            <AnchorPane.topAnchor>697.6</AnchorPane.topAnchor>
+        <font>
+            <Font name="Arial" size="30.0" />
+        </font>
+        </Label>
+    </children>
+</AnchorPane>

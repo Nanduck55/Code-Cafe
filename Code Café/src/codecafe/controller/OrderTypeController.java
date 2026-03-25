@@ -33,6 +33,8 @@ private void openMenu(String type, MouseEvent event) {
         codecafe.model.OrderData.getInstance().setOrderType(type);
 
         Parent menuRoot = FXMLLoader.load(getClass().getResource("/codecafe/view/menu.fxml"));
+
+
         Scene scene = new Scene(menuRoot, 1920, 1080);
 
         Stage stage = (Stage) ((AnchorPane) event.getSource()).getScene().getWindow();

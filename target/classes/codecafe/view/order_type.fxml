@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="1080.0" prefWidth="1920.0" stylesheets="@../styles.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="codecafe.controller.OrderTypeController">
+   <children>
+      <ImageView fx:id="click" fitHeight="1080" fitWidth="1920" pickOnBounds="true" preserveRatio="false">
+         <image>
+            <Image url="@../assets/images/background.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="715.0" layoutY="188.0" prefHeight="75.0" prefWidth="490.0" styleClass="label1" stylesheets="@../assets/css/scene1and2.css" text="Will the Order be" AnchorPane.leftAnchor="720.0" AnchorPane.rightAnchor="709.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <StackPane layoutX="461.0" layoutY="383.0" prefHeight="229.0" prefWidth="981.0" />
+      <HBox layoutX="460.0" layoutY="303.0" prefHeight="474.0" prefWidth="1000.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <AnchorPane fx:id="click_dine_In" prefHeight="510.0" prefWidth="354.0" styleClass="card" stylesheets="@../assets/css/scene1and2.css">
+                     <children>
+                        <ImageView fitHeight="400.0" fitWidth="350.0" layoutX="31.0" layoutY="34.0">
+                           <image>
+                              <Image url="@../assets/images/Icons/Dine%20In%20transparent.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="105.0" layoutY="381.0" styleClass="label1" stylesheets="@../assets/css/scene1and2.css" text="Dine-in">
+                           <font>
+                              <Font size="21.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" />
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <AnchorPane fx:id="click_take_out" prefHeight="510.0" prefWidth="354.0" styleClass="card" stylesheets="@../assets/css/scene1and2.css">
+                     <children>
+                        <ImageView fitHeight="400.0" fitWidth="350.0" layoutX="31.0" layoutY="34.0">
+                           <image>
+                              <Image url="@../assets/images/Icons/Take-Out%20transparent.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="88.0" layoutY="385.0" styleClass="label1" stylesheets="@../assets/css/scene1and2.css" text="Take-Out">
+                           <font>
+                              <Font size="21.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

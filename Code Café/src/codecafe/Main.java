@@ -20,6 +20,8 @@ public class Main extends Application {
         // Set title and show stage
         primaryStage.setTitle("Code Coffee");
         primaryStage.setScene(scene);
+        primaryStage.setFullScreen(false);
+        primaryStage.setResizable(true);
         primaryStage.show();
     }
 

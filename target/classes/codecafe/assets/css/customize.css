@@ -1,0 +1,167 @@
+.back-customize-btn {
+    -fx-font-family: "Montserrat";
+    -fx-font-size: 30px;
+    -fx-text-fill: #6B3F2A; 
+    -fx-font-weight: bold;
+
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.back-customize-btn:hover{
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.35), 15, 0.5, 0, 5);
+    -fx-scale-x: 1.05;               
+    -fx-scale-y: 1.05;
+}
+
+.coffee-name-label {
+    -fx-font-family: "Montserrat";
+    -fx-font-size: 60px;
+    -fx-text-fill: #1F1F1F; 
+    -fx-font-weight: bold;
+}
+
+.label-prize-customize {
+    -fx-font-family: "Poppins";
+    -fx-font-size: 40px;
+    -fx-text-fill: #6B3F2A; 
+    -fx-font-weight: bold; 
+}
+.label-customize {
+    -fx-font-family: "Poppins";
+    -fx-font-size: 40px;
+    -fx-text-fill: #6B3F2A; 
+    -fx-font-weight: 500; 
+}
+
+.description-txt {
+    -fx-font-size: 40px;
+}
+
+.quantity-label {
+    -fx-font-family: "Poppins";
+    -fx-font-size: 20px;
+    -fx-text-fill: #6B3F2A; 
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+}
+
+.quantity-minus-add-btn {
+    -fx-background-color: #6b3e26; 
+    -fx-text-fill: white; 
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;   
+
+    -fx-alignment: center;
+
+    -fx-min-width: 35px;
+    -fx-min-height: 35px;
+    -fx-max-width: 35px;
+    -fx-max-height: 35px;
+
+    -fx-background-radius: 10;
+}
+
+.quantity-minus-add-btn:hover {
+    -fx-background-color: #8b5a3c;
+    -fx-cursor: hand;
+
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.add-ons-card {
+    -fx-background-color: #C69A6B;       
+    -fx-background-radius: 10;            
+    -fx-max-width: Infinity;                                   
+}
+
+.add-ons-card:hover {
+    -fx-background-color: #B5835A;     
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.35), 15, 0.5, 0, 5);
+    -fx-scale-x: 1.05;               
+    -fx-scale-y: 1.05;
+}
+
+.add-ons-label {
+    -fx-text-fill: #FFFFFF;  
+    -fx-font-family: "Poppins";
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 0 10 0 10;
+}
+
+.add-ons-label:hover {
+    -fx-text-fill: #FFFFFF;  
+    -fx-font-family: "Poppins";
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 0 10 0 10;
+}
+
+.add-ons-prize {
+    -fx-text-fill: #FFFFFF;  
+    -fx-font-size: 13px;
+}
+
+.add-to-order{
+    -fx-text-fill: #FFFFFF;  
+    -fx-font-family: "Poppins";
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-color: #4A2E1F;       
+    -fx-background-radius: 10;            
+    -fx-max-width: Infinity;                                   
+}
+
+.add-to-order:hover {
+    -fx-background-color: #6b3e26;     
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.35), 15, 0.5, 0, 5);
+    -fx-scale-x: 1.05;               
+    -fx-scale-y: 1.05;
+}
+
+
+
+.check {
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+}
+
+.add-ons-btn {
+    -fx-text-fill: #FFFFFF; 
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;   
+    -fx-alignment: center;
+    -fx-min-width: 30px;
+    -fx-min-height: 30px;
+    -fx-max-width: 30px;
+    -fx-max-height: 30px;
+
+    -fx-background-color: transparent;
+
+    -fx-border-color: transparent;
+}
+
+.add-ons-quantity {
+    -fx-font-family: "Poppins";
+    -fx-font-size: 20px;
+    -fx-text-fill: #FFFFFF; 
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+}
+.add-ons-btn:hover {
+    -fx-background-color: #cec6c150;
+    -fx-cursor: hand;
+
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}

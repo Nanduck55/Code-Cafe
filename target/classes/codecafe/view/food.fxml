@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="nonCoffee_menu" prefHeight="751.0" prefWidth="1096.0" styleClass="nav-card" stylesheets="@../assets/css/menu.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutY="1.0" prefHeight="54.0" prefWidth="1094.0" styleClass="selection-card" stylesheets="@../assets/css/menu.css">
+         <children>
+            <Label fx:id="fruit_soda_menu" layoutX="19.0" layoutY="11.0" prefHeight="36.0" prefWidth="236.0" styleClass="selection-text" stylesheets="@../assets/css/menu.css" text="Food Menu" />
+         </children>
+      </AnchorPane>
+      <ScrollPane layoutX="22.0" layoutY="87.0" prefHeight="637.0" prefWidth="1058.0" styleClass="menu-bg" stylesheets="@../assets/css/menu.css">
+         <content>
+            <AnchorPane fx:id="food_menu" minHeight="0.0" minWidth="0.0" prefHeight="1060.0" prefWidth="1060.0" styleClass="menu-bg" stylesheets="@../assets/css/menu.css">
+               <children>
+                  <AnchorPane fx:id="food1" layoutX="17.0" layoutY="5.0" prefHeight="276.0" prefWidth="228.0" styleClass="menu-card" stylesheets="@../assets/css/menu.css">
+                     <children>
+                        <Label layoutX="22.0" layoutY="192.0" styleClass="label-menu-name" stylesheets="@../assets/css/menu.css" text="Chicharap">
+                           <font>
+                              <Font size="4.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="22.0" layoutY="216.0" styleClass="label-menu-prize" stylesheets="@../assets/css/menu.css" text="₱ 49.00" />
+                        <ImageView fitHeight="184.0" fitWidth="200.0" layoutX="19.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/images/Food/chicharap.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="food_1" layoutX="177.0" layoutY="229.0" styleClass="plus-btn" stylesheets="@../assets/css/menu.css" text="+">
+                           <font>
+                              <Font size="39.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="food2" layoutX="273.0" layoutY="5.0" prefHeight="276.0" prefWidth="228.0" styleClass="menu-card" stylesheets="@../assets/css/menu.css">
+                     <children>
+                        <Label layoutX="22.0" layoutY="192.0" styleClass="label-menu-name" stylesheets="@../assets/css/menu.css" text="Regular Fries">
+                           <font>
+                              <Font size="4.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="22.0" layoutY="216.0" styleClass="label-menu-prize" stylesheets="@../assets/css/menu.css" text="₱ 69.00" />
+                        <ImageView fitHeight="184.0" fitWidth="200.0" layoutX="19.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/images/Food/regular_fries.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="food_2" layoutX="177.0" layoutY="229.0" styleClass="plus-btn" stylesheets="@../assets/css/menu.css" text="+">
+                           <font>
+                              <Font size="39.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="food3" layoutX="530.0" layoutY="5.0" prefHeight="276.0" prefWidth="228.0" styleClass="menu-card" stylesheets="@../assets/css/menu.css">
+                     <children>
+                        <Label layoutX="22.0" layoutY="192.0" styleClass="label-menu-name" stylesheets="@../assets/css/menu.css" text="Cheesy Fries">
+                           <font>
+                              <Font size="4.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="22.0" layoutY="216.0" styleClass="label-menu-prize" stylesheets="@../assets/css/menu.css" text="₱ 79.00" />
+                        <ImageView fitHeight="184.0" fitWidth="200.0" layoutX="19.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/images/Food/cheesy_fries.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="food_3" layoutX="177.0" layoutY="229.0" styleClass="plus-btn" stylesheets="@../assets/css/menu.css" text="+">
+                           <font>
+                              <Font size="39.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="food4" layoutX="785.0" layoutY="5.0" prefHeight="276.0" prefWidth="228.0" styleClass="menu-card" stylesheets="@../assets/css/menu.css">
+                     <children>
+                        <Label layoutX="22.0" layoutY="192.0" styleClass="label-menu-name" stylesheets="@../assets/css/menu.css" text="Cheesy Bacon Fries">
+                           <font>
+                              <Font size="4.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="22.0" layoutY="216.0" styleClass="label-menu-prize" stylesheets="@../assets/css/menu.css" text="₱ 99.00" />
+                        <ImageView fitHeight="184.0" fitWidth="200.0" layoutX="19.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/images/Food/cheesy_becon_fries.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="food_4" layoutX="177.0" layoutY="229.0" styleClass="plus-btn" stylesheets="@../assets/css/menu.css" text="+">
+                           <font>
+                              <Font size="39.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="food5" layoutX="17.0" layoutY="303.0" prefHeight="276.0" prefWidth="228.0" styleClass="menu-card" stylesheets="@../assets/css/menu.css">
+                     <children>
+                        <Label layoutX="22.0" layoutY="192.0" styleClass="label-menu-name" stylesheets="@../assets/css/menu.css" text="Grilled Cheese">
+                           <font>
+                              <Font size="4.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="22.0" layoutY="216.0" styleClass="label-menu-prize" stylesheets="@../assets/css/menu.css" text="₱ 109.00" />
+                        <ImageView fitHeight="184.0" fitWidth="206.0" layoutX="21.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/images/Food/grilled_cheese.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="food_5" layoutX="177.0" layoutY="229.0" styleClass="plus-btn" stylesheets="@../assets/css/menu.css" text="+">
+                           <font>
+                              <Font size="39.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="food6" layoutX="273.0" layoutY="303.0" prefHeight="276.0" prefWidth="228.0" styleClass="menu-card" stylesheets="@../assets/css/menu.css">
+                     <children>
+                        <Label layoutX="22.0" layoutY="192.0" styleClass="label-menu-name" stylesheets="@../assets/css/menu.css" text="Classic Quesadilla">
+                           <font>
+                              <Font size="4.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="22.0" layoutY="216.0" styleClass="label-menu-prize" stylesheets="@../assets/css/menu.css" text="₱ 89.00" />
+                        <ImageView fitHeight="184.0" fitWidth="200.0" layoutX="19.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/images/Food/classic_quesadilla.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="food_6" layoutX="177.0" layoutY="229.0" styleClass="plus-btn" stylesheets="@../assets/css/menu.css" text="+">
+                           <font>
+                              <Font size="39.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="food7" layoutX="530.0" layoutY="303.0" prefHeight="276.0" prefWidth="228.0" styleClass="menu-card" stylesheets="@../assets/css/menu.css">
+                     <children>
+                        <Label layoutX="22.0" layoutY="192.0" styleClass="label-menu-name" stylesheets="@../assets/css/menu.css" text="Beef Quesadilla">
+                           <font>
+                              <Font size="4.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="22.0" layoutY="216.0" styleClass="label-menu-prize" stylesheets="@../assets/css/menu.css" text="₱ 109.00" />
+                        <ImageView fitHeight="184.0" fitWidth="200.0" layoutX="19.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/images/Food/beef_quesadilla.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="food_7" layoutX="177.0" layoutY="229.0" styleClass="plus-btn" stylesheets="@../assets/css/menu.css" text="+">
+                           <font>
+                              <Font size="39.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="food8" layoutX="785.0" layoutY="303.0" prefHeight="276.0" prefWidth="228.0" styleClass="menu-card" stylesheets="@../assets/css/menu.css">
+                     <children>
+                        <Label layoutX="22.0" layoutY="192.0" styleClass="label-menu-name" stylesheets="@../assets/css/menu.css" text="Beef Nachos">
+                           <font>
+                              <Font size="4.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="22.0" layoutY="216.0" styleClass="label-menu-prize" stylesheets="@../assets/css/menu.css" text="₱ 125.00" />
+                        <ImageView fitHeight="184.0" fitWidth="200.0" layoutX="19.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/images/Food/beef_nachos.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="food_8" layoutX="177.0" layoutY="229.0" styleClass="plus-btn" stylesheets="@../assets/css/menu.css" text="+">
+                           <font>
+                              <Font size="39.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
