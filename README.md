@@ -9,6 +9,7 @@ A Smart Coffee Ordering System
 ![License](https://img.shields.io/badge/License-MIT-blue)
 ![Contributors](https://img.shields.io/badge/Contributors-5-orange)
 ![Demo](https://img.shields.io/badge/Demo-Available-brightgreen)
+![Static Badge](https://img.shields.io/badge/Maven-C71A36?logo=apachemaven)
 
 ---
 
